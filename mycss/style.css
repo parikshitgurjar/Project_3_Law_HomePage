@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    background-color: #2B2922;
+}
+
+
+/* xoxox  THIS IS PARENT CONTAINER  xoxoxox */
+/* xoxox  THIS IS PARENT CONTAINER  xoxoxox */
+
+.container
+{
+    /* background:pink; */
+    width:100%;
+    
+}
+
+/* xoxox  THIS IS NAV BAR CONTANER   xoxoxox */
+/* xoxox  THIS IS NAV BAR CONTANER   xoxoxox */
+/* xoxox  THIS IS NAV BAR CONTANER   xoxoxox */
+
+.navbar
+{
+    background-color: #2B2922;
+    width:100%;
+    height:90px;
+}
+
+/* xoxo xoxoxoxo nav bar container elements  xoxoxox xo ox */
+/* xoxo xoxoxoxo nav bar container elements  xoxoxox xo ox */
+
+.logo img
+{
+    width:150px;
+    height:50px;
+}
+
+.list
+{
+    background-color: #2B2922;
+    width:fit-content;
+}
+
+.list li
+{
+    display:inline-block;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: lighter;
+    color:#a09f9f;
+    margin: 0 0 0 70px;
+}
+
+.list li:hover
+{
+    color:#daa520;
+    cursor:pointer;
+}
+
+
+
+
+.button-small
+{
+    width: 150px;
+    height:50px;
+    border-radius: 10px;
+    background-color: #2B2922;
+    color:#daa520;
+    border:2px solid #daa520;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.button-small:hover
+{
+    background-color: #daa520;
+    color:#2B2922;
+    border:2px solid red;
+}
+
+/* xoxoxo ALIGNING ELEMENTS OF NAV BAR USING FLEX  xoxoxo */
+/* xoxoxo ALIGNING ELEMENTS OF NAV BAR USING FLEX  xoxoxo */
+/* xoxoxo ALIGNING ELEMENTS OF NAV BAR USING FLEX  xoxoxo */
+
+.navbar
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list
+{
+    margin-left: 60px;
+}
+
+/* xoxoxox footer image part xoxox */
+/* xoxoxox footer image part xoxox */
+/* xoxoxox footer image part xoxox */
+
+.bottom_image img
+{
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:300px;
+}
+
+
+
+/* xoxoxoxo  CONTENT PART xoxoxoxo */
+/* xoxoxoxo  CONTENT PART xoxoxoxo */
+/* xoxoxoxo  CONTENT PART xoxoxoxo */
+
+.content_part
+{
+    background:#2B2922;
+    height:300px;
+}
+
+.heading h1
+{
+    background: #2B2922;
+    color:#f0f8ff;
+    font-family: Montserrat;
+    font-size: 65px;
+    width:600px;
+}
+
+.paragraph p
+{
+    background: #2B2922;
+    color:#a09f9f ;
+    font-family: Poppins;
+    font-size:20px;
+    width:450px;
+}
+
+/* x0x0x0x0 aligning elements of content x0x0x0x  */
+
+.content_part
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
