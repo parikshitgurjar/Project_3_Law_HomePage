@@ -18,7 +18,7 @@
 
 ### There are lot of things which i learn by doing this Project.
 
->Getting a better Understanding of Aligning different type of Elements like image,text or child container etc.
+>Getting a better Understanding of Aligning different type of Elements like image,text and child container etc.
 
 1. <b>Center Align Elements : </b> <br/>
     - To horizontally center a block element (like < div >), use margin: auto;
